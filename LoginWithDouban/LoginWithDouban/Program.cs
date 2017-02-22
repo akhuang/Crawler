@@ -30,8 +30,8 @@ namespace LoginWithDouban
             HttpClient client = new HttpClient(handler);
             var formContent = new FormUrlEncodedContent(
                 new[]{
-                new KeyValuePair<string, string>("form_email", "phoenix.fy24h@gmail.com"),
-                new KeyValuePair<string, string>("form_password", "050195@hf"),
+                new KeyValuePair<string, string>("form_email", "xxx"),
+                new KeyValuePair<string, string>("form_password", "xxxx"),
                 new KeyValuePair<string, string>("login", "登录")
             });
 
